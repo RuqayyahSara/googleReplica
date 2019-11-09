@@ -1,0 +1,166 @@
+@import "compass";
+.nav{
+    margin-left: 1113px;
+    margin-top:-10px;
+    color: rgb(14, 13, 13);
+    font-size: 13px; 
+}
+.nav a{
+    text-decoration: none;
+}
+.grid-icon > .layer {
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+.grid-icon {
+	display: inline-block;
+	margin: 10px;
+}
+.grid-icon--fill {
+	position: relative;
+	width: 26px;
+	height: 26px;
+}
+
+.grid-icon--fill > .layer {
+	width: 100%;
+	height: 6px;
+}
+
+.grid-icon--fill > .layer--primary {
+	top: 0%;
+}
+
+.grid-icon--fill > .layer--secondary {
+	top: 50%;
+	margin-top: -7px;
+}
+
+.grid-icon--fill > .layer--tertiary {
+    top: 80%;
+    margin-top: -9px;
+}
+
+.grid-icon--fill > .layer > span {
+	position: absolute;
+	display: block;
+	width: 4px;
+	height: 4px;
+	background-color: rgb(117, 116, 116);
+}
+
+.grid-icon--fill > .layer > span {
+	right: 19px;
+    margin-left: -5px;
+    top:24px;
+}
+
+.grid-icon--fill > .layer > span:before {
+	display: block;
+	content: "";
+	width: 4px;
+	height: 4px;
+	background-color: rgb(117, 116, 116);
+	left: -6px;
+	position: absolute;
+}
+
+.grid-icon--fill > .layer > span:after {
+	display: block;
+	content: "";
+	width: 4px;
+	height: 4px;
+	background-color: rgb(117, 116, 116);
+	right: -6px;
+	position: absolute;
+}
+.image{
+    margin-top: 108px;
+    margin-left: 548px;
+}
+.search{
+    margin-left: 388px;
+    margin-top: 20px;
+}
+input{
+    border: 1px solid rgb(199, 197, 197); 
+    border-radius: 23px;
+    border-style: outset;
+    padding-right: 500px;
+    padding-top:17px;
+    
+}
+.center{
+    margin-left: 536px;
+    margin-top: 20px;
+}
+.lang{
+    margin-left: -106px;
+    margin-top: 20px;
+    font-size: 12px; 
+}
+.lang a{
+    text-decoration: none;
+    color: blue
+}
+.india {
+    font-size: 15px;
+    border: 1px solid rgb(231, 228, 228);
+    background-color: rgba(238, 238, 241, 0.986);
+    color: rgb(119, 117, 117);
+    font-family: sans-serif, Arial;
+    margin-top: 160px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.footer {
+    font-size: 13px;
+    border-style: solid solid solid;
+    background-color: rgba(238, 238, 241, 0.986);
+    border: 1px rgb(231, 228, 228);
+    color: rgb(92, 89, 89);
+    padding-top: 8px;
+    padding-bottom: 9px;
+    
+}
+.ad {
+    padding-left: 27px;
+    text-decoration: none;
+    font-family: sans-serif, Arial;
+}
+.b {
+padding-left: 23px;
+font-family: sans-serif, Arial;
+text-decoration: none;
+}
+
+.about {
+    padding-left: 23px;
+font-family: sans-serif, Arial;
+text-decoration: none;
+}
+.works {
+    padding-left: 22px;
+font-family: sans-serif, Arial;
+text-decoration: none;
+}
+.pri {padding-left: 776px;
+    font-family: sans-serif, Arial;
+    text-decoration: none;
+}
+.terms {
+    padding-left: 22px;
+font-family: sans-serif, Arial;
+text-decoration: none;
+}
+
+.set {
+padding-left: 22px;
+    font-family: sans-serif, Arial;
+    text-decoration: none;
+}
+
+
+
